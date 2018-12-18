@@ -42,7 +42,9 @@ div h1 {
  }*/
 
  /*-- INICIO DEL LANDING PAGE --*/
-
+::-webkit-scrollbar {
+    display: none;
+}
  .landingrid{
   background: #c94b4b;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
@@ -55,8 +57,7 @@ div h1 {
 }
 .text-primary{
   color: $color;
-  text-shadow: 1px 0 0 rgb(158,158,158), -1px 0 0 rgb(66,66,66), 0 1px 0 rgb(66,66,66), 0 -1px 0 rgb(66,66,66), 1px 1px rgb(66,66,66), -1px -1px 0 rgb(66,66,66), 1px -1px 0 rgb(66,66,66), -1px 1px 0 rgb(66,66,66);
-  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+ 
   font-family: $font-arial;
   font-style: normal;
   font-weight: 100;
@@ -296,6 +297,7 @@ a {text-decoration: none;}
   margin-top: 3em;
   transition: 2s all;
   border-radius: 50%;
+  border: 2px solid pink;
 }
 
 
