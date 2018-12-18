@@ -13,6 +13,7 @@ class Landingpage extends Component{
 	         
           
            <img className="avatar__img" src="./css/kasnino.png" alt=""/>
+            <img className="fondo__img" src="./css/herokuapp.png" alt=""/>
 	         
          <h1>&nbsp;&bull;&nbsp; Serrano <span className="text-primary">Kristian &nbsp;&bull;&nbsp;</span></h1>
          </div>

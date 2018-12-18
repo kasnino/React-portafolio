@@ -284,7 +284,16 @@ a {text-decoration: none;}
 }
 
 /*FIN DE RESUMEN*/
+.fondo__img{
+background: #348cb2 url("./css/herokuapp.png");
+background-size: contain;
+height: auto;
+ background-repeat: no-repeat;
+display: none;
 
+  cursor: pointer;
+  padding: 50%;
+}
 /*animatioons*/
 .avatar__img{
   background: #348cb2 url("./css/kasnino.png");
