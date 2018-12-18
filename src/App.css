@@ -1,32 +1,302 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+/*-- VARIABLES --*/
+
+.centro{
+  justify-content: center;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/*-- INICIO DEL LANDING PAGE --*/
+div h1 {
+  color: lightpink;
+  min-height: 10%;
+  font-size: calc(40px + 2vmin);
+  justify-content: center;
+  text-align: center;
+}
+.layout__ header{    
+  background-color: rgba(196, 197, 202, 0.26);
+}
+.header__nav{
+ background: #C04848;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+/*@mixin fondo{
+  background: #c94b4b;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to top, #4b134f, #c94b4b); 
+  background: linear-gradient(to top, #4b134f, #c94b4b); 
+}
+@mixin avatar{
+ background: #348cb2 url("./css/kasnino.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+
+ }*/
+
+ /*-- INICIO DEL LANDING PAGE --*/
+
+ .landingrid{
+  background: #c94b4b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  margin: 0;
+  padding:0;
+  overflow: scroll;
+}
+.text-primary{
+  color: $color;
+  text-shadow: 1px 0 0 rgb(158,158,158), -1px 0 0 rgb(66,66,66), 0 1px 0 rgb(66,66,66), 0 -1px 0 rgb(66,66,66), 1px 1px rgb(66,66,66), -1px -1px 0 rgb(66,66,66), 1px -1px 0 rgb(66,66,66), -1px 1px 0 rgb(66,66,66);
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  font-family: $font-arial;
+  font-style: normal;
+  font-weight: 100;
+}
+a {text-decoration: none;}
+
+
+
+.avatar__img:hover{
+  transform: scale(1.2);
+}
+.avatar__img__med{
+ background: #348cb2 url("./css/kasnino.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ width: 25px;
+ height: 25px;
+ padding: 18px;
+ text-decoration: none;
+ border: .5px solid #fff;
+ border-radius: 5px;
+}
+.banner__text{
+ background: #0a0a0a;
+ opacity: .8;
+ margin: auto;
+ width: 75%;border-radius: 10px;
+ height: 400px; 
+ box-shadow: 0 0 1em #fff;
+}
+.banner__text h1{
   color: white;
 }
+.banner__text p{
+  color: white;
+  line-height: 53px;
+  letter-spacing: 5px;
+}
+.banner__text h2{
+  transition: all 2s ease-in-out;
+}
+.banner__text h2:hover{
+  color: #efefef;
+}
+.banner__text p:hover{
+  color: rgb(255,64,129);
 
-.App-link {
-  color: #61dafb;
+}
+.banner__text hr{
+  border-top: 5px dotted white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.iconos__ a i{
+ color: white;
+ margin: 10px;
+ cursor: pointer;
+ transition: all 1s;
 }
+.iconos__ a i:hover{
+ transform: scale(1.4);
+ color: rgb(255,64,129);
+}
+/*  FIN DEL LANDING PAGE*/
+/*  INICIO DE PROYECTOS CSS EDIT*/
+.tabs{
+  background: #c048488f;
+  background: -webkit-linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #d5336980, #c0484887);
+  background: linear-gradient(to right, #480048b3, #C04848);
+}
+.proy-grid {
+  display: flex;
+}
+.proy-grid .Card{
+  transition: all 2s;
+  
+}
+.proy-grid .Card:hover
+{ transform: scale(1.1);}
+
+
+
+.mdl-layout__content{
+   background: -webkit-linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #480048, #C04848);
+  background: linear-gradient(to right, #480048, #C04848);
+}
+/*  FIN DE PROYECTOS CSS EDIT*/
+/*INICIO DE CONTACTO*/
+.contacto__body{
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  background: -webkit-linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #480048, #C04848);
+  background: linear-gradient(to right, #480048, #C04848);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding-top: 2em;
+   
+}
+
+
+.contacto__grid{
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  /* background: #FFF; */
+  color: #0a0a0a;
+  /* border: 2px solid #FFF; */
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 .5em #fff;
+  background: #C04848;
+  background: -webkit-linear-gradient(to right, #480048, #C04848);
+  background: -webkit-linear-gradient(left, #480048, #C04848);
+  background: linear-gradient(to right, #480048, #C04848);
+  transition: 5s all; 
+}
+
+.contacto__grid:hover{
+  transform: scale(0.9);
+}
+.contacto__grid h1{
+  color: #c04848;
+  font-family: 'Ubuntu', sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.contacto__avatar{
+ background: #348cb2 url("./css/kasnino.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ border-radius: 5%;
+ padding: 40%;
+}
+
+.contacto__body hr{
+  border-top: 4px dotted white;
+  text-align: center;
+  justify-content: center;
+  margin:auto;
+  width: 50%;
+}
+.lista__body {
+  text-align: center;
+  justify-content: center;
+}
+.lista__contacto li{
+  padding-top: 15%;
+  color: white;
+
+}
+.lista__body i {
+  color: #FFF;
+  text-align: center;
+  justify-content: center;
+  padding-right: 4rem;
+  transition: 2s all; 
+}
+.lista__body i:hover{
+  transform: scale(1.3);
+  color: rgb(255,64,129);
+}
+.lista__body .lista__item1 {
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 17px;
+}
+/*FIN DE CONTACTO*/
+/*INICIO DE RESUMEN*/
+.resumen__body{
+
+ position: fixed;
+ width: 100%;
+ height: 100%;
+ margin-top: 0;
+ background: -webkit-linear-gradient(to right, #480048, #C04848);
+ background: -webkit-linear-gradient(left, #480048, #C04848);
+ background: linear-gradient(to right, #480048, #C04848);
+}
+.resumen_right{
+  background: #C04848;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  color: white;
+  padding: 0;
+  margin-top: 0;
+  border-radius: 5px;
+
+}
+
+.resumen_left{
+  border-radius: 5px;
+  background: #c94b4b;
+  background: -webkit-linear-gradient(to top, #4b134f, #c94b4b);
+  background: -webkit-linear-gradient(bottom, #4b134f, #c94b4b);
+  background: linear-gradient(to top, #4b134f, #c94b4b);
+  box-shadow: 0 0 .5em #fff;
+  height: 800px;
+}
+
+.resumen__avatar{
+ background: #348cb2 url("./css/kasnino.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ padding: 25%;
+ text-decoration: none;
+ border: 1px solid $color;
+ border-radius: 10%;
+
+
+}
+
+.resumen__body hr{
+  border-top: 4px dotted white;
+}
+
+/*FIN DE RESUMEN*/
+
+/*animatioons*/
+.avatar__img{
+  background: #348cb2 url("./css/kasnino.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 200px;
+  width: 200px;
+  padding:19%; 
+  margin-top: 3em;
+  transition: 2s all;
+  border-radius: 50%;
+}
+
+
+/*fin de animations*/
