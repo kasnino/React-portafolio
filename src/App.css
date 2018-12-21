@@ -41,7 +41,50 @@ div h1 {
 
  }*/
 
+
+.CardTitle1{
+
+ background: #348cb2 url("./todolist.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+color: red;
+}
+.CardTitle1:hover{
+color:#FFF;
+
+}
+
+
+.CardTitle2{
+
+ background: #348cb2 url("./portafolio.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+color: red;
+}
+.CardTitle2:hover{
+color:#FFF;
+
+}
+
+.CardTitle3{
+
+ background: #348cb2 url("./reactporta.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ cursor: pointer;
+color: red;
+}
+.CardTitle3:hover{
+color:#FFF;
+
+}
+
+
  /*-- INICIO DEL LANDING PAGE --*/
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -64,7 +107,16 @@ div h1 {
 }
 a {text-decoration: none;}
 
-
+.bordeTitulo{
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  background: red;
+  opacity: .8;
+padding: 0;
+margin:0;
+  
+}
 
 .avatar__img:hover{
   transform: scale(1.2);
@@ -78,7 +130,6 @@ a {text-decoration: none;}
  height: 25px;
  padding: 18px;
  text-decoration: none;
- border: .5px solid #fff;
  border-radius: 5px;
 }
 .banner__text{

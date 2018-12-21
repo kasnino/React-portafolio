@@ -19,18 +19,22 @@ class Projects extends Component{
     	   <div className="proy-grid">   
 		
 		{/*proyecto #1*/}
-			<Card className="Card" shadow={0} style={{width: '272px', margin: 'auto'}}>
-			<CardTitle style={{ color: 'rgb(255,64,129)',  height: '196px', background: 'url(https://pngimage.net/wp-content/uploads/2018/06/rails-png-5.png) center / cover'}}>
-			Ruby on Rails
+			<Card className="Card" shadow={0} style={{width: '302px', margin: 'auto'}}>
+			<CardTitle className="CardTitle1" style={{color: 'rgb(255,64,129)',   height: '196px'}}>
+		
 			</CardTitle>
 			<CardText>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			Mauris sagittis pellentesque lacus eleifend lacinia...
+			Reto #2 Creado con ReactJS
+			Conociendo la estructura de esta libreria
 			</CardText>
 			<CardActions border>
-			<Button colored>Github</Button>
-			<Button colored>CodePen</Button>
-			<Button colored>Demo</Button>
+			<Button colored> <a href="https://github.com/kasnino/kasnino" rel="noopener noreferrer" target="_blank">
+             Github</a></Button>
+			
+			<Button colored>
+			 <a href="http://brief-swim.surge.sh/" rel="noopener noreferrer" target="_blank">
+             Demo</a>
+			</Button>
 			</CardActions>
 			<CardMenu style={{color: 'rgb(255,64,129)'}}>
 			<IconButton name="share" />
@@ -38,18 +42,25 @@ class Projects extends Component{
 			</Card>
 
 				{/*proyecto #2*/}
-				<Card className="Card" shadow={0} style={{width: '272px', margin: 'auto'}}>
-			<CardTitle style={{ color: 'rgb(255,64,129)',  height: '196px', background: 'url(https://pngimage.net/wp-content/uploads/2018/06/rails-png-5.png) center / cover'}}>
-			Ruby on Rails
+				<Card className="Card" shadow={0} style={{width: '302px', margin: 'auto'}}>
+			
+			<CardTitle className="CardTitle2" style={{ color: 'rgb(255,64,129)',  height: '196px'}}>
+		
 			</CardTitle>
 			<CardText>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			Mauris sagittis pellentesque lacus eleifend lacinia...
+			Maquetando una web con solo html y CSs 
+			utilizo diferentes animaciones en CSs
+			se adapta a cualquier dispositivo 
+			[Responsive]			
 			</CardText>
 			<CardActions border>
-			<Button colored>Github</Button>
-			<Button colored>CodePen</Button>
-			<Button colored>Demo</Button>
+			<Button colored> <a href="https://github.com/kasnino/kasnino" rel="noopener noreferrer" target="_blank">
+             Github</a></Button>
+			
+			<Button colored>
+			 <a href="https://kasnino.github.io/kasnino/" rel="noopener noreferrer" target="_blank">
+             Demo</a>
+			</Button>
 			</CardActions>
 			<CardMenu style={{color: 'rgb(255,64,129)'}}>
 			<IconButton name="share" />
@@ -57,19 +68,23 @@ class Projects extends Component{
 			</Card>
 
 
-				{/*proyecto #3*/}
-				<Card className="Card" shadow={0} style={{width: '272px', margin: 'auto'}}>
-			<CardTitle style={{ color: 'rgb(255,64,129)',  height: '196px', background: 'url(https://pngimage.net/wp-content/uploads/2018/06/rails-png-5.png) center / cover'}}>
-			Ruby on Rails
+				{/*proyecto #3background: 'url(https://pngimage.net/wp-content/uploads/2018/06/rails-png-5.png) center / cover'}*/} 
+			<Card className="Card" shadow={0} style={{width: '272px', margin: 'auto'}}>
+			<CardTitle className="CardTitle3" style={{ color: 'rgb(255,64,129)',  height: '196px'}}>
+		
 			</CardTitle>
 			<CardText>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			Mauris sagittis pellentesque lacus eleifend lacinia...
+		
 			</CardText>
 			<CardActions border>
-			<Button colored>Github</Button>
-			<Button colored>CodePen</Button>
-			<Button colored>Demo</Button>
+			<Button colored> <a href="https://github.com/kasnino/kasnino" rel="noopener noreferrer" target="_blank">
+             Github</a></Button>
+			
+			<Button colored>
+			 <a href="https://stark-sierra-34238.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+             Demo</a>
+			</Button>
 			</CardActions>
 			<CardMenu style={{color: 'rgb(255,64,129)'}}>
 			<IconButton name="share" />

@@ -6,7 +6,7 @@ class Educacion extends Component{
 			
 
 			<div>
-				<div><h1>Educacion</h1></div>
+			<div><h1>Educacion</h1></div>
 			<Grid>
 			<Cell col={6}>colright
 			</Cell>
