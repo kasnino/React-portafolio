@@ -82,7 +82,7 @@ class Projects extends Component{
              Github</a></Button>
 			
 			<Button colored>
-			 <a href="https://stark-sierra-34238.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+			 <a href="https://stark-sierra-34238.herokuapp.com/			" rel="noopener noreferrer" target="_blank">
              Demo</a>
 			</Button>
 			</CardActions>
